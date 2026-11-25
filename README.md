@@ -1,29 +1,51 @@
 # Георгий Чирков
 
-Аналитик данных из Санкт-Петербурга. Сейчас учусь на 1 курсе магистратуры СПбГЭУ по направлению «Прикладная математика и информатика», бакалавриат по экономике окончил там же в 2026 году.
+Аналитик данных из Санкт-Петербурга. Сейчас учусь на 1 курсе магистратуры СПбГЭУ по направлению «Прикладная математика и информатика». Бакалавриат окончил там же в 2026 году: экономика, профиль «Математическое моделирование и анализ данных в экономике».
 
 Больше всего люблю задачи, где нужна статистика: A/B-тесты, проверку гипотез, поиск причин в данных. В последнее время много занимаюсь ML. Хочу работать в финтехе.
 
 Связаться: Telegram [@chigerokii](https://t.me/chigerokii), почта chigerokii@gmail.com
 
-## Чем пользуюсь
+## Что умею
 
-- Python: pandas, NumPy, SciPy, scikit-learn, CatBoost, SHAP, imbalanced-learn, matplotlib, seaborn, plotly, Dash
-- SQL: PostgreSQL, SQLite
-- BI: Yandex DataLens, Excel
-- Из экономики пригодились эконометрика, финансовый анализ и оценка рисков
+**Python для анализа данных.** pandas, NumPy, SciPy, statsmodels, matplotlib, seaborn, plotly. Дашборды на Dash. Работаю в Jupyter, код храню в Git.
+
+**SQL.** PostgreSQL и SQLite: джойны, подзапросы, CTE, в том числе рекурсивные, оконные функции, работа с JSONB.
+
+**Статистика и эксперименты.** Проверка гипотез (t-тест, Манн–Уитни, χ², Шапиро–Уилк, Колмогоров–Смирнов), A/A- и A/B-тесты, расчёт размера выборки и MDE, бакетирование, доверительные интервалы, корреляционный анализ. Меры риска: VaR, полудисперсия.
+
+**Машинное обучение.** scikit-learn, CatBoost, XGBoost, imbalanced-learn, SHAP, TensorFlow/Keras.
+- Классификация и регрессия: линейные модели, деревья, Random Forest, Rotation Forest, бустинги, KNN, SVM, нейросети (MLP, свёрточные).
+- Несбалансированные классы: oversampling, SMOTE, веса классов.
+- Кластеризация (k-means, иерархическая, DBSCAN, HDBSCAN, метрика Gower), поиск аномалий (Isolation Forest), понижение размерности (PCA, t-SNE, факторный анализ).
+- Подбор гиперпараметров, кросс-валидация, разбиение по времени, интерпретация моделей.
+
+**Эконометрика и временные ряды.** Множественная регрессия (МНК), проверка предпосылок, ARIMA/ARIMAX, тесты на стационарность, прогнозирование социально-экономических показателей, производственные функции. Пакет gretl.
+
+**Оптимизация и исследование операций.** Линейное и целочисленное программирование (метод ветвей и границ, метод Гомори), задачи о назначениях, о рюкзаке, о замене оборудования. Графы: Дейкстра, Флойд–Уоршелл, Краскал, Прим, Форд–Фалкерсон. Муравьиный алгоритм, сетевое планирование, многокритериальная оптимизация и МАИ, теория игр.
+
+**Имитационное моделирование.** AnyLogic: агентные и дискретно-событийные модели (эпидемия SIR, сегрегация Шеллинга, банк, аэропорт, перекрёсток).
+
+**BI и другие инструменты.** Yandex DataLens, Excel (сводные таблицы, ВПР, ИНДЕКС и ПОИСКПОЗ), KNIME, Wolfram Mathematica.
+
+**Экономика и финансы.** Финансовый анализ отчётности, экономика фирмы, оценка эффекта от внедрения, теория рисков.
 
 ## Проекты
 
-- [Классификация основных средств (ВКР)](https://github.com/chigerokii/fixed-assets-classification-thesis). Реестр активов на 12,6 тыс. объектов, 312 классов. Кластеризация на HDBSCAN с метрикой Gower, поиск аномалий, сравнение десятка моделей. Лучший результат у Random Forest, accuracy 0,61.
-- [A/B-тест кэшбэк-программы банка](https://github.com/chigerokii/cashback-ab-test). Оценивали, как обновление приложения повлияло на кэшбэк и траты 44 тыс. клиентов: A/A-тест, размер выборки, MDE, бакетирование. Командный учебный кейс.
+- [Классификация основных средств (ВКР)](https://github.com/chigerokii/fixed-assets-classification-thesis). Реальные данные ООО «НИИгазэкономика», 12,6 тыс. объектов и сотни несбалансированных классов. HDBSCAN с метрикой Gower, Isolation Forest, десяток моделей. Разбиение задачи по единицам измерения подняло точность с 0,625 до 0,707, трудозатраты на разметку снижаются с 840 до 414 чел.-ч.
+- [A/B-тест кэшбэк-программы банка](https://github.com/chigerokii/cashback-ab-test). Как обновление приложения повлияло на кэшбэк и траты 44 тыс. клиентов: A/A-тест, размер выборки, MDE, бакетирование. Командный учебный кейс.
 - [Прогноз выполнения ж/д-заявок](https://github.com/chigerokii/logistics-order-fulfillment). CatBoost с разбиением по времени, ROC-AUC 0,79 на отложенном месяце, интерпретация через SHAP.
+- [Модель уровня жизни в Башкортостане](https://github.com/chigerokii/econometrics-living-standards). Курсовая по эконометрике: стационарность, отбор факторов, ARIMAX. Главный фактор, который тормозит рост доходов, — неравенство.
 - [Рынок недвижимости РФ](https://github.com/chigerokii/real-estate-russia-analysis). Очистка 5,4 млн объявлений, сезонность, проверка гипотез, модель цены с R² 0,88.
 - [Продажи авиабилетов](https://github.com/chigerokii/airline-sales-analysis). Сезонность, глубина бронирования, самые доходные направления.
 - [Дашборд по менеджерам в DataLens](https://github.com/chigerokii/sales-dashboard-datalens). Кто из отдела продаж приносит выручку и где проблемы.
 - [ДТП в России за 2018 год](https://github.com/chigerokii/road-accidents-russia-eda). Разведочный анализ 39 тыс. аварий.
 - [Небольшие задачи по статистике](https://github.com/chigerokii/statistics-mini-projects). A/B-тест среднего чека и меры риска в автостраховании.
 
+## Курсы
+
+«Поколение Python» на Stepik: для начинающих и для продвинутых (2024).
+
 ---
 
-**In English.** Data analyst based in St Petersburg. I'm in the first year of an MSc in Applied Mathematics and Computer Science at St Petersburg State University of Economics, after a BSc in Economics from the same university. I mostly work on A/B testing, statistics and ML, and I'd like to work in fintech. Telegram: [@chigerokii](https://t.me/chigerokii).
+**In English.** Data analyst based in St Petersburg. I'm in the first year of an MSc in Applied Mathematics and Computer Science at St Petersburg State University of Economics, after a BSc in Economics (mathematical modelling and data analysis) from the same university. I work with Python, SQL, statistics and A/B testing, ML (scikit-learn, CatBoost, SHAP, Keras), econometrics and optimisation. I'd like to work in fintech. Telegram: [@chigerokii](https://t.me/chigerokii).
