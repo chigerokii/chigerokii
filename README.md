@@ -19,14 +19,14 @@
 
 | Проект | О чём | Ключевые методы |
 |---|---|---|
-| [**🎓 ВКР: классификация основных средств**](https://github.com/USERNAME/fixed-assets-classification-thesis) | Определение типа объекта по 312 классам на реальном (обезличенном) реестре активов | HDBSCAN + Gower, Isolation Forest, SMOTENC, 10+ моделей, Random Forest (accuracy 0,61) |
-| [**Кэшбэк-программа банка: A/B-тест**](https://github.com/USERNAME/cashback-ab-test) | Эффект обновления приложения на кэшбэк и траты ~44 тыс. клиентов | A/A-тест, расчёт выборки, MDE, бакетирование |
-| [**Прогноз выполнения ж/д-заявок**](https://github.com/USERNAME/logistics-order-fulfillment) | Вероятность выполнения заявки на перевозку | CatBoost, SHAP, временная валидация (ROC-AUC 0,79), Dash |
-| [**Рынок недвижимости РФ**](https://github.com/USERNAME/real-estate-russia-analysis) | 5,4 млн объявлений: факторы цены, сезонность, модель прогноза | Очистка данных, Random Forest (R² = 0,88), проверка гипотез |
-| [**Продажи авиабилетов**](https://github.com/USERNAME/airline-sales-analysis) | Сезонность, глубина бронирования, доходные направления | EDA, t-тесты, сегментация |
-| [**Дашборд эффективности менеджеров**](https://github.com/USERNAME/sales-dashboard-datalens) | BI-дашборд и выводы для руководителя отдела продаж | Yandex DataLens, KPI |
-| [**Аварийность на дорогах РФ**](https://github.com/USERNAME/road-accidents-russia-eda) | 39 тыс. ДТП: опасные регионы, трассы и время суток | EDA, pandas, визуализация |
-| [**Статистика для бизнеса**](https://github.com/USERNAME/statistics-mini-projects) | A/B-тест среднего чека и ARPU; меры риска в страховании | t-тест, VaR, полудисперсия |
+| [**🎓 ВКР: классификация основных средств**](https://github.com/chigerokii/fixed-assets-classification-thesis) | Определение типа объекта по 312 классам на реальном (обезличенном) реестре активов | HDBSCAN + Gower, Isolation Forest, SMOTENC, 10+ моделей, Random Forest (accuracy 0,61) |
+| [**Кэшбэк-программа банка: A/B-тест**](https://github.com/chigerokii/cashback-ab-test) | Эффект обновления приложения на кэшбэк и траты ~44 тыс. клиентов | A/A-тест, расчёт выборки, MDE, бакетирование |
+| [**Прогноз выполнения ж/д-заявок**](https://github.com/chigerokii/logistics-order-fulfillment) | Вероятность выполнения заявки на перевозку | CatBoost, SHAP, временная валидация (ROC-AUC 0,79), Dash |
+| [**Рынок недвижимости РФ**](https://github.com/chigerokii/real-estate-russia-analysis) | 5,4 млн объявлений: факторы цены, сезонность, модель прогноза | Очистка данных, Random Forest (R² = 0,88), проверка гипотез |
+| [**Продажи авиабилетов**](https://github.com/chigerokii/airline-sales-analysis) | Сезонность, глубина бронирования, доходные направления | EDA, t-тесты, сегментация |
+| [**Дашборд эффективности менеджеров**](https://github.com/chigerokii/sales-dashboard-datalens) | BI-дашборд и выводы для руководителя отдела продаж | Yandex DataLens, KPI |
+| [**Аварийность на дорогах РФ**](https://github.com/chigerokii/road-accidents-russia-eda) | 39 тыс. ДТП: опасные регионы, трассы и время суток | EDA, pandas, визуализация |
+| [**Статистика для бизнеса**](https://github.com/chigerokii/statistics-mini-projects) | A/B-тест среднего чека и ARPU; меры риска в страховании | t-тест, VaR, полудисперсия |
 
 ### 📜 Курсы
 
